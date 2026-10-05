@@ -1,5 +1,7 @@
 # Image pipeline
 
+I've found myself building this from scratch a few times, so here it is: a reusable image pipeline to copy into your own projects.
+
 A downloadable TypeScript toolkit for React image uploads. Select and crop in the browser; validate, orient, resize and encode with Sharp on your own server; save through your own storage.
 
 This repository runs inside your project. There is no hosted service, account or external processing API. It is a reference implementation with source modules to copy and adapt, not a published npm package.
