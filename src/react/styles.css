@@ -1,0 +1,14 @@
+.ip-uploader { display: grid; gap: .75rem; max-width: 36rem; font: inherit; }
+.ip-uploader input[type=file] { max-width: 100%; padding: .75rem 0; }
+.ip-crop-controls { border: 0; padding: 0; margin: 0; min-width: 0; }
+.ip-crop-controls legend { padding: 0 0 .75rem; }
+.ip-crop { position: relative; height: clamp(240px, 55vw, 360px); background: #202522; border-radius: .5rem; overflow: hidden; }
+.ip-zoom { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; }
+.ip-zoom input { flex: 1; min-height: 44px; }
+.ip-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.ip-actions button { font: inherit; min-height: 44px; padding: .65rem 1rem; cursor: pointer; border: 1px solid #607168; border-radius: .4rem; background: #fff; color: #203f30; }
+.ip-actions button:first-child { background: #203f30; color: white; }
+.ip-actions button:disabled { opacity: .55; cursor: default; }
+.ip-hint { color: #536259; font-size: .875rem; margin: 0; }
+.ip-error { color: #9d2525; }
+.ip-uploader :focus-visible { outline: 3px solid #aa7022; outline-offset: 3px; }

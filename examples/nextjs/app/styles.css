@@ -1,0 +1,11 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #25342b; background: #f5f6f2; }
+body { margin: 0; }
+main { max-width: 48rem; margin: auto; padding: clamp(1.25rem, 5vw, 4rem); }
+.eyebrow { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: #536259; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.1; letter-spacing: -.04em; }
+.intro { max-width: 36rem; line-height: 1.6; margin-bottom: 2rem; }
+.results { margin-top: 2rem; }
+figure { margin: 1rem 0; }
+figure img { display: block; max-width: 100%; width: auto; height: auto; max-height: 360px; border-radius: .5rem; }
+figcaption, footer { font-size: .85rem; color: #536259; line-height: 1.6; }
+footer { border-top: 1px solid #d5ddd4; margin-top: 3rem; padding-top: 1rem; }

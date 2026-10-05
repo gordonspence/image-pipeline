@@ -1,0 +1,30 @@
+{
+  "name": "image-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "dev": "npm run dev --workspace examples/nextjs",
+    "build:example": "npm run build --workspace examples/nextjs"
+  },
+  "workspaces": [
+    "examples/nextjs"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-easy-crop": "^6.2.3",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.0"
+  }
+}
